@@ -347,6 +347,8 @@ align-items: center;
   justify-content: space-evenly;
 
 }
+  .maindiv2::-webkit-scrollbar{
+    display:none;}
 
 .buttonorder{
 margin-top: 10px;
