@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  box-sizing: border-box;
+  font-family: 'Imprima';
+}
+
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  max-width: 1234px;
+  background: #FFF;
+  padding-right: 50px;
+  
+}
+
+.header_navigation {
+  display: flex;
+  margin-left: 215px;
+
+
+}
+
+.ico {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 57px;
+  height: 50px;
+}
+
+
+.header .header_navigation a {
+  color: #272626;
+  text-decoration: none;
+ 
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 49px;
+
+}
+
+
+#home {
+  width: 75px;
+  margin-right: 37px;
+
+}
+#order {
+  width: 60px;
+  margin-right: 58px;
+}
+#food {
+  width: 60px;
+  margin-right: 48px;
+}
+#restorent {
+  width: 128px;
+  margin-right: 40px;
+}
+#testimonials {
+  width: 141px;
+  margin-right: 47px;
+}
+#Contact {
+  margin-right: 110px;
+  width: 124px;
+}
+.maind{ 
+width: 100%;
+height: 200vh;
+}
+.maindiv1{
+  object-fit: cover;
+height: 545px;
+ width: 1234px;
+}
+img{
+  object-fit: cover;
+  height: 645px;
+ width: 1234px;
+padding-bottom: 5px;
+ margin: 0;
+}
+.coverdiv{
+  position: absolute;
+top: 603px;
+  height: 87px;
+width: 1234px;
+background: linear-gradient(to right, #ff6bc0, #ff89a5, #ffa68b, #ffd760);
+}
+.blur{
+  opacity: 0.63;
+background: #EB786B; 
+  width: 547px;
+  height: 209px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 203px;
+  left: 70px;
+}
+.blurh{
+  width: 547px;
+  height: 209px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 203px;
+  left: 70px;
+}
+.headding{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Imprima';
+  margin-top: 22px;
+  font-weight: 600;
+  margin-left: 42px;
+  width: 323px;
+  color: #FFF;
+height: 75px;
+letter-spacing: 3.583px;
+}
+.sub{
+  color: #FEFEFE;
+  font-family: 'Imprima';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+  margin-left: 42px;
+  display: flex;
+width: 416px;
+height: 76px;
+justify-content: center;
+flex-direction: column;
+line-height: 20.6px; /* 147.143% */
+letter-spacing: 0.56px;
+flex-shrink: 0;
+}
+.blur_p{
+  color: #FEFEFE;
+
+  font-family: 'Imprima';font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20.6px; 
+letter-spacing: 0.56px;
+}
+.maindiv2{
+  width: 1234px; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bottom{
+   width: 1234px;
+  height: 694px;
+  background: linear-gradient(to right, #ff6bc0, #ff89a5, #ffa68b, #ffd760);
+  overflow: hidden;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+}
+.ordernow{
+  color: #FDFCFC;
+  display: flex;
+width: 319px;
+height: 42px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+text-align: center;
+font-family: 'Imprima';
+font-size: 46px;
+font-style: normal;
+font-weight: 400;
+line-height: 3px; /* 6.522% */
+letter-spacing: 5.98px;
+}
+.card1 {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 0;
+  gap: 20px;
+  background: #fcfcfc;
+  width: 262px;
+  height: 355px;
+  flex-shrink: 0;
+  border-radius: 0px 60px 19px 60px / 0px 59px 0px 60px;
+}
+.card1 img {
+ margin-top: 20px;
+ margin-bottom: 0;
+ margin-right: 20px;
+ margin-left: 20px;
+  width: 219px;
+  height: 220px;
+  border-radius: 0px 60px 19px 0px / 0px 59px 0px 11px;
+}
+.cadrname{
+  display: flex;
+width: 58px;
+height: 20px;
+flex-direction: column;
+justify-content: center;
+font-family: 'Imprima';
+flex-shrink: 0;
+}
+.carddetail{
+  display: flex;
+  width: 226px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #141212;
+padding: 20px;
+font-family: 'Imprima';
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 19.6px; /* 140% */
+letter-spacing: -0.28px;
+}
+.cart{
+  color: #000;
+}
+.buttonorder{
+  margin-top: 77px;
+  display: flex;
+width: 167px;
+height: 51px;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+color: #020202;
+border-radius: 50px;
+border: none;
+text-align: center;
+font-family: 'Imprima';font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 3px; /* 15% */
+letter-spacing: 0.2px;
+}
+svg{
+  display: none;
+  width: 50px;
+  height: 20px;
+}
+@media screen and (max-width:1200px) {
+.header {
+  display: flex;
+  align-items: center;
+ 
+  background: #FFF;
+}
+
+.header_navigation {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.ico {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 57px;
+  height: 50px;
+}
+.header .header_navigation a {
+  color: #272626;
+  text-decoration: none;
+  font-family: 'Imprima';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-shrink: 0;
+  height: 49px;
+
+}
+
+.handbar {
+  display: none;
+}
+
+
+
+.icons {
+
+  display: flex;
+
+  width: 57px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+
+}
+ 
+#home,#order,#food ,#restorent ,#testimonials ,#Contact {
+ margin: 0;
+ 
+}
+
+.bottom{
+  padding-right: 150px;
+  width: 100%;
+  display: flex;
+ 
+}
+.maindiv2{
+  
+  padding-top: 560px;
+  width: 50%;
+  height: 100vh;
+  margin-top: 10px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.buttonorder{
+margin-top: 10px;
+  margin-bottom: 20px;
+ 
+}
+
+}
+@media screen and (max-width:900px) {
+  .header_navigation{
+   display: none;
+    
+  }
+  .ico{
+    display: none;
+  }
+  svg{
+    display: block;
+   height: 30px;
+   margin: 10px;
+   
+   width: 80px;
+  }
+}
